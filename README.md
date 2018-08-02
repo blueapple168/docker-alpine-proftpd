@@ -14,8 +14,6 @@ proftpd:
   volumes:
     - ./proftpd.conf:/usr/local/etc/proftpd.conf
     - ./data/ftp:/data
-  links:
-    - mysql
   ports:
     - "20:20"
     - "21:21"
