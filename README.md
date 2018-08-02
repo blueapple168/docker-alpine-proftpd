@@ -1,6 +1,6 @@
 # docker proftpd alpine
 
-A proftpd docker container with mysql, quota and sftp modules based on alpine.
+A proftpd docker container based on alpine.
 
 ## Usage
 
