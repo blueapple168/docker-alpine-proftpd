@@ -1,6 +1,6 @@
 FROM alpine
 LABEL maintainer "blueapple <blueapple1120@qq.com>"
-ENV PROFTPD_VERSION 1.3.6
+ENV PROFTPD_VERSION 1.3.6d
 
 # persistent / runtime deps
 ENV PROFTPD_DEPS \
